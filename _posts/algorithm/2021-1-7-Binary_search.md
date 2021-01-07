@@ -1,7 +1,9 @@
 ---
 title: "이진 탐색"
+excerpt: "탐색 알고리즘"
 categories:
   - 알고리즘
+last_modified_at: 2021-01-07-13T08:06:00-05:00
 ---
 ### 이진 탐색
 
