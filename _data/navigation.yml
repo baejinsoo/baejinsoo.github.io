@@ -2,8 +2,10 @@
 main:
   - title: "Categories"
     url: /categories/
-  - title: "tag"
+  - title: "Tag"
     url: /tags/
+  - title: "Project"
+    url: /project/
   - title: "About"
     url: /about/
   # - title: "Sample Collections"

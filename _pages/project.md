@@ -1,8 +1,8 @@
 ---
 title: "Project"
-permalink: /categories/Project/
+permalink: /project/
 layout: category
 taxonomy: Project
 ---
 
-수행한 프로젝트 입니다.
+수행한 프로젝트입니다.
