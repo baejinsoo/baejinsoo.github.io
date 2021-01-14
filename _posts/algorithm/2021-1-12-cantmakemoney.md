@@ -17,7 +17,7 @@ n = int(input())
 coins = list(map(int, input().split()))
 result = set()
 
-# 1,2,3,...n개 의 조합으로 가능한 경우를 set에 넣어감
+# nC1,nC2,nC3,...nCn개 의 조합으로 가능한 경우의 합을 set에 넣어감
 for i in range(1, n+1):
     sum_coin = list(combinations(coins, i))
     for combi in sum_coin:
@@ -44,13 +44,28 @@ n = int(input())
 data = list(map(int, input().split()))
 data.sort()
 
-target = 1
+target = 0
 for x in data:
 # 만들 수 없는 금액을 찾았을 때 반복 종료
-if target < x:
-break
-target += x
+	if target < x:
+		break
+	target += x
 
-print(target)
+print(target+1)
 ```
 
+#### 해설
+
+문제의 입력 예시를 보면 data = [3, 2, 1, 1, 9] 이다.
+
+1, 1, 2, 3, 9 순서대로 정렬 후 target의 값과 data내의 값을 비교하면서 for문을 순차적으로 확인한다.
+
+| x  값 | target 값 | 만들 수 잇는 금액(이전 target값 +  현재x값) |
+| ----- | --------- | ------------------------------------------- |
+| 1     | 1         | 1                                           |
+| 1     | 2         | (1+1) 1,2                                   |
+| 2     | 4         | (2+2) 1,2,3,4                               |
+| 3     | 7         | (4+3) 1,2,3,4,5,6,7                         |
+| 9     |           |                                             |
+
+9는 target 보다 크기 때문에 8을 만드는 것은 불가능하기 때문에 target = 8 이된다.
