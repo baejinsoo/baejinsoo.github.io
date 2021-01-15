@@ -1,6 +1,6 @@
 ---
 title: "문자열 재정렬"
-excerpt: "이것이 취업을 위한 코딩테스트다 with 파이썬 - Greedy"
+excerpt: "이것이 취업을 위한 코딩테스트다 with 파이썬 - 구현"
 categories:
   - 알고리즘 문제풀기
 last_modified_at: 2021-01-16
