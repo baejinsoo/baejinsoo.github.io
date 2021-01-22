@@ -5,7 +5,6 @@ categories:
   - Python
 last_modified_at: 2021-01-21
 toc: true
-toc: true
 toc_sticky: true
 ---
 
