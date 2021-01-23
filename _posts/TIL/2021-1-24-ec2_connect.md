@@ -44,7 +44,7 @@ toc_sticky: true
 
 4. ubuntu Server 18.04 선택 (원하시는 버전 `선택`하시면 됩니다.)
 
-![image-20210124005115965](E:\1st_project\django_project_plist\django_playlist\imges\image-20210124005115965.png)
+![image-20210124005115965](https://user-images.githubusercontent.com/17541671/105611389-55f00d00-5df8-11eb-95a1-c04ec68e3779.png)
 
 5. t2.micro (프리티어 사용 가능) 선택하시고 `다음 `
 
