@@ -20,7 +20,7 @@ title                    : "Dev Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "BaeJinsoo"
-description              : "다양한 개발을 공부하는 블로그입니다"
+description              : "꾸준히  공부하며 기록하는 개발 블로그입니다"
 url                      : "https://baejinsoo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "baejinsoo/baejinsoo.github.com"
